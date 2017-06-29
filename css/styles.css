@@ -53,3 +53,8 @@ h3 {
 .description {
 	margin: 1em;
 }
+
+/* aoki's parts */
+.bg-grey {
+      background-color: #f6f6f6;
+  }
