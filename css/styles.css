@@ -1,0 +1,55 @@
+
+/* body */
+/*
+div {
+	border: 1px solid black;
+}
+*/
+
+a, a:hover {
+	color: black;
+}
+
+.container {
+	padding: 60px 0px;
+}
+
+.jumbotron {
+	padding: 100px 0px;
+	margin: 0;
+}
+
+h3 {
+	vertical-align: middle;
+    display: inline-block;
+}
+
+/* navbar */
+
+/* dropdown */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+ 
+ 
+/* conference */
+#confInfo div {
+	height: 250px;
+	line-height: 250px;
+}
+
+#confInfo a div:hover {
+	background: #ccc;
+}
+
+/* gallery */
+#gallery div {
+}
+
+#gallery a div:hover {
+	background: #ccc;
+}
+
+.description {
+	margin: 1em;
+}

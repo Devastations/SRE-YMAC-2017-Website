@@ -5,13 +5,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
 	
 	<!-- Navigation -->
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#">Logo</a>
@@ -20,7 +21,7 @@
 				<li class="active"><a href="#">About Us</a></li>
 				<li><a href="#">Schedule</a></li>
 				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Conference Materials/Information <span class="caret"></span></a>
+					<a href="#confInfo">Conference Materials/Information <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">Packing List</a></li>
 						<li><a href="#">Rules and Regulation</a></li>
@@ -32,7 +33,7 @@
 						<li><a href="#">SRE-YMAC Criteria for Awards</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Gallery</a></li>
+				<li><a href="#gallery">Gallery</a></li>
 				<li><a href="#">Contacts/Location</a></li>
 			</ul>
 		</div>
@@ -54,13 +55,68 @@
 	</div>
 	
 	<!-- Conference Materials/Information -->
-	<div class="container">
+	<div class="container text-center" id="confInfo">
+		<h1>Conference Materials/Information</h1>
+		
+		<div class="row">
+			<a href="#"><div class="col-sm-3">
+				<h3>Packing List</h3>
+			</div></a>
+			<a href="#"><div class="col-sm-3">
+				<h3>Procedures and Protocol</h3>
+			</div></a>
+			<a href="#"><div class="col-sm-3">
+				<h3>Position and Summary</h3>
+			</div></a>
+			<a href="#"><div class="col-sm-3">
+				<h3>Commitment Issues</h3>
+			</div></a>
+		</div>
+		<div class="row">
+			<a href="#"><div class="col-sm-3">
+				<h3>Rules and Regulation</h3>
+			</div></a>
+			<a href="#"><div class="col-sm-3">
+				<h3>Country Profiles</h3>
+			</div></a>
+			<a href="#"><div class="col-sm-3">
+				<h3>Information Sheets</h3>
+			</div></a>
+			<a href="#"><div class="col-sm-3">
+				<h3>SRE-YMAC Criteria for Awards</h3>
+			</div></a>
+		</div>
 	
 	</div>
 	
 	<!-- Gallery -->
-	<div class="container">
-	
+	<div class="container text-center" id="gallery">
+		<h1>Gallery</h1>
+		
+		<div class="row">
+			<a href="#"><div class="col-sm-4">
+				<h3>2014</h3>
+				<img src="images/test.png" class="img-responsive" />
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div></a>
+			<a href="#"><div class="col-sm-4">
+				<h3>2015</h3>
+				<img src="images/test.png" class="img-responsive" />
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div></a>
+			<a href="#"><div class="col-sm-4">
+				<h3>2016</h3>
+				<img src="images/test.png" class="img-responsive" />
+				<div class="description">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div></a>
+		</div>
+		
 	</div>
 	
 	<!-- Contacts/Location -->
